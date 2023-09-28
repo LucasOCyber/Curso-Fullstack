@@ -1,0 +1,74 @@
+<div class="jumbotron p-4 my-1">
+    <h1 class="display-4">Formulario</h1>
+    <p class="lead m-1">Exemplo de alguns components de formulario</p>
+</div>
+
+<nav class="mb-5">
+    <ol class="breadcrumb">
+        <li class="breadcrum-item">
+            <a href="#/bemVindo.html">Home</a>
+        </li>
+        <li class="breadcrum-item active">Formulário</li>
+    </ol>
+</nav>
+<p class="lead">
+    <a href="https://getbootstrap.com/docs/4.0/components/forms/" target="_black">Documentação Oficial</a>
+</p>
+
+<!-- Formulário -->
+
+<form>
+    <div class="form-row">
+      <div class="col-md-4 mb-3">
+        <label for="validationServer01">Primeiro nome</label>
+        <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Primeiro nome" value="Nome" required>
+        <div class="valid-feedback">
+            Muito bom!
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationServer02">Ultimo nome</label>
+        <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Sobrenome" value="Otto" required>
+        <div class="valid-feedback">
+            Muito bom!
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationServerUsername">Nome de usuario</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroupPrepend3">@</span>
+          </div>
+          <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Nome de usuario" aria-describedby="inputGroupPrepend3" required>
+          <div class="invalid-feedback">
+            prencha o campo usuario.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationServer03">Cidade</label>
+        <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Cidade" required>
+        <div class="invalid-feedback">
+            Por favor coloque uma cidade valida.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationServer04">Estado</label>
+        <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="Estado" required>
+        <div class="invalid-feedback">
+            Por favor coloque um Estado valida.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationServer05">Cep</label>
+        <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Cep" required>
+        <div class="invalid-feedback">
+            Por favor coloque um Cep valida.
+        </div>
+      </div>
+    </div>
+    
+    <button class="btn btn-primary" type="submit">inscrever-se</button>
+  </form>
